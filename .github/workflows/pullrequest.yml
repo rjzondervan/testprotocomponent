@@ -1,0 +1,15 @@
+name: Create pull requests
+
+on: 
+    push:
+        branches:
+            - master
+
+jobs:
+    cpr:
+        name: Creating pull requests
+        runs-on: ubuntu-latest
+        #needs:
+        steps:
+            - name: checking out repository
+              uses: actions/checkout@v1

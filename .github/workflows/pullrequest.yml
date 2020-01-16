@@ -42,6 +42,7 @@ jobs:
             - name: Create pull request
               run: hub pull-request -b $owner/$repository:branch -h $me/$repository:update-$releasename
             - name: Chores
+              if: success() || failure()
               run: |
                   git remote remove child
                   git checkout master

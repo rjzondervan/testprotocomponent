@@ -7,7 +7,7 @@ export $branch=master
 export $RELEASE_NAME=V0.1
 export $message="update from proto component"
 
-git remote add child
+git remote add child https://github.com/$owner/$repository
 git branch update-$RELEASE_NAME
 git checkout update-$RELEASE_NAME
 if[$owner==$globalowner];then

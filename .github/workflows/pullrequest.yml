@@ -26,6 +26,9 @@ jobs:
               run: echo ##[set-output name=owner;]$owner
               env:
                   owner: rjzondervan
+            - run: | 
+                  echo $me
+                  echo $owner
             - name: Add remote repository
               env:
                   owner: rjzondervan

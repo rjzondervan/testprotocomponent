@@ -10,6 +10,32 @@ jobs:
         name: Creating pull requests
         runs-on: ubuntu-latest
         #needs:
+        env:
+            me: rjzondervan
+            releasename: v0.1
         steps:
-            - name: checking out repository
+            - name: Checking out repository
               uses: actions/checkout@v1
+            - name: Create new branch
+              run: 
+                | 
+                git branch update-$releasename
+                git checkout update-$releasename
+            - name: Add remote repository
+              if: owner == me
+              run: git remote add child https://github.com/$owner/$repository
+              env:
+                  owner: rjzondervan
+                  repository: testgeneratedcomponent1
+            - name: Push to remote repository
+              if: owner == me
+              run: git push -u child update-$releasename
+            - name: Create pull request
+              run: hub pull-request -b $owner/$repository:branch -h $me/$repository:update-$releasename
+            - name: Chores
+              run: |
+                  git remote remove child
+                  git checkout master
+                  git branch update-$releasename -D
+
+                  

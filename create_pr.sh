@@ -15,3 +15,5 @@ if [ $owner == $globalowner ]; then
 fi
 hub pull-request -b $owner/$repository:$branch -h $globalowner/$repository:update-$RELEASE_NAME -m "$message"
 git remote remove child
+git checkout master
+git branch update-$RELEASE_NAME -D

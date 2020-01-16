@@ -30,7 +30,9 @@ jobs:
               env:
                   owner: rjzondervan
             - run: | 
-                  echo $me
+                  echo ${GITHUB_ACTOR}
+            - run: |
+                  echo ${GITHUB_REPOSITORY}
             - run: | 
                   echo ${{steps.set_owner.outputs.owner}}
             - name: Add remote repository

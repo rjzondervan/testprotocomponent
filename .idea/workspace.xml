@@ -178,7 +178,7 @@
       <workItem from="1573726462409" duration="6345000" />
       <workItem from="1574770780191" duration="4500000" />
       <workItem from="1575443613282" duration="255000" />
-      <workItem from="1579170725509" duration="5085000" />
+      <workItem from="1579170725509" duration="5388000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed language errors in Installation.md">
       <created>1573726496674</created>
@@ -348,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579188505018</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Different approach to setting owner">
+      <created>1579188615789</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579188615789</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Different approach to setting owner">
+      <created>1579188758011</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579188758011</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +405,7 @@
     <MESSAGE value="(semi) definitive fix for rollout issue" />
     <MESSAGE value="First attempt to use a github action for creating a pull request" />
     <MESSAGE value="Switching around some env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switching around some env" />
+    <MESSAGE value="Different approach to setting owner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Different approach to setting owner" />
   </component>
 </project>

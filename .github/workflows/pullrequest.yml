@@ -21,6 +21,10 @@ jobs:
                 | 
                 git branch update-$releasename
                 git checkout update-$releasename
+            - name: Set owner
+              run: echo ::set-env name=owner::$owner
+              env:
+                  owner: rjzondervan
             - name: Add remote repository
               env:
                   owner: rjzondervan

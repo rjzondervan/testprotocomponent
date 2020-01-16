@@ -38,10 +38,10 @@ jobs:
               env:
                   owner: rjzondervan
                   repository: testgeneratedcomponent1
-              if: steps.set_owner.outputs.owner == ${GITHUB_ACTOR}
+              if: steps.set_owner.outputs.owner == github.actor
               run: git remote add child https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/$owner/$repository
             - name: Push to remote repository
-              if: steps.set_owner.outputs.owner == ${GITHUB_ACTOR}
+              if: steps.set_owner.outputs.owner == github.actor
               run: git push -u child update-$releasename
             - name: Create pull request
               run: hub pull-request -b $owner/$repository:branch -h $me/$repository:update-$releasename

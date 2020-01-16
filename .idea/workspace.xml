@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92089c82-d91e-45b0-a4eb-32fdfd03bfef" name="Default Changelist" comment="set github username">
+    <list default="true" id="92089c82-d91e-45b0-a4eb-32fdfd03bfef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -183,7 +183,7 @@
       <workItem from="1573726462409" duration="6345000" />
       <workItem from="1574770780191" duration="4500000" />
       <workItem from="1575443613282" duration="255000" />
-      <workItem from="1579170725509" duration="6793000" />
+      <workItem from="1579170725509" duration="7045000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed language errors in Installation.md">
       <created>1573726496674</created>
@@ -430,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579190021684</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Some more trying">
+      <created>1579190319849</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1579190319849</updated>
+    </task>
+    <task id="LOCAL-00037" summary="So what now?">
+      <created>1579190457234</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1579190457234</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,8 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="export to set-env" />
-    <MESSAGE value="Set APP_BUILD" />
     <MESSAGE value="APP NAME testen" />
     <MESSAGE value="Passing to next?" />
     <MESSAGE value="removing test workflow" />
@@ -475,6 +487,8 @@
     <MESSAGE value="quotes?" />
     <MESSAGE value="Always clean up" />
     <MESSAGE value="set github username" />
-    <option name="LAST_COMMIT_MESSAGE" value="set github username" />
+    <MESSAGE value="Some more trying" />
+    <MESSAGE value="So what now?" />
+    <option name="LAST_COMMIT_MESSAGE" value="So what now?" />
   </component>
 </project>

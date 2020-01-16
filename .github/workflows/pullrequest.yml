@@ -28,6 +28,7 @@ jobs:
                   owner: rjzondervan
             - run: | 
                   echo $me
+            - run: | 
                   echo $owner
             - name: Add remote repository
               env:

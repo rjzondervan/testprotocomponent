@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92089c82-d91e-45b0-a4eb-32fdfd03bfef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerimage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dockerimage.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,7 +179,7 @@
       <workItem from="1573726462409" duration="6345000" />
       <workItem from="1574770780191" duration="4500000" />
       <workItem from="1575443613282" duration="255000" />
-      <workItem from="1579170725509" duration="5388000" />
+      <workItem from="1579170725509" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed language errors in Installation.md">
       <created>1573726496674</created>
@@ -362,7 +363,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579188758011</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Another approach to use global env">
+      <created>1579188920928</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579188920928</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Yet another attempt to use env">
+      <created>1579188975365</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579188975365</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Wat are we setting?">
+      <created>1579189121657</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579189121657</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,8 +404,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed language errors in Installation.md" />
-    <MESSAGE value="Checked DESIGN.md for language errors" />
     <MESSAGE value="Checked TUTORIAL.md for typos" />
     <MESSAGE value="adding logs for debugging" />
     <MESSAGE value="Testing with setting environment variable from .env" />
@@ -406,6 +426,9 @@
     <MESSAGE value="First attempt to use a github action for creating a pull request" />
     <MESSAGE value="Switching around some env" />
     <MESSAGE value="Different approach to setting owner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Different approach to setting owner" />
+    <MESSAGE value="Another approach to use global env" />
+    <MESSAGE value="Yet another attempt to use env" />
+    <MESSAGE value="Wat are we setting?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wat are we setting?" />
   </component>
 </project>

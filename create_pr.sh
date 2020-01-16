@@ -10,10 +10,8 @@ export message="update from proto component"
 git remote add child https://github.com/$owner/$repository
 git branch update-$RELEASE_NAME
 git checkout update-$RELEASE_NAME
-if[ $owner==$globalowner ]; then
+if [ $owner == $globalowner ]; then
     git push -u child update-$RELEASE_NAME
-else
-
 fi
-hub pull-request -b $owner/$repository:$branch -h $globalowner/$repository:update-$RELEASE_NAME -m $message
+hub pull-request -b $owner/$repository:$branch -h $globalowner/$repository:update-$RELEASE_NAME -m "$message"
 git remote remove child

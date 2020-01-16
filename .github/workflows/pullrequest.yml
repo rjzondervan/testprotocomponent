@@ -22,11 +22,11 @@ jobs:
                 git branch update-$releasename
                 git checkout update-$releasename
             - name: Add remote repository
-              if: owner == me
-              run: git remote add child https://github.com/$owner/$repository
               env:
                   owner: rjzondervan
                   repository: testgeneratedcomponent1
+              if: owner == me
+              run: git remote add child https://github.com/$owner/$repository
             - name: Push to remote repository
               if: owner == me
               run: git push -u child update-$releasename

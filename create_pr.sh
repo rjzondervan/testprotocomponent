@@ -1,10 +1,10 @@
 #/bin/bash
 
-export $globalowner=rjzondervan
-export $owner=rjzondervan
-export $repository=testgeneratedcomponent1
-export $branch=master
-export $RELEASE_NAME=V0.1
+export $globalowner="rjzondervan"
+export $owner="rjzondervan"
+export $repository="testgeneratedcomponent1"
+export $branch="master"
+export $RELEASE_NAME="V0.1"
 export $message="update from proto component"
 
 git remote add child https://github.com/$owner/$repository

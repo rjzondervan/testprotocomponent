@@ -22,17 +22,18 @@ jobs:
                 git branch update-$releasename
                 git checkout update-$releasename
             - name: Set owner
-              run: echo ::set-env name=owner::$owner
+              id: set_owner
+              run: echo ##[set-output name=owner;]$owner
               env:
                   owner: rjzondervan
             - name: Add remote repository
               env:
                   owner: rjzondervan
                   repository: testgeneratedcomponent1
-              if: owner == me
+              if: steps.set_owner.outputs.owner == me
               run: git remote add child https://github.com/$owner/$repository
             - name: Push to remote repository
-              if: owner == me
+              if: steps.set_owner.outputs.owner == me
               run: git push -u child update-$releasename
             - name: Create pull request
               run: hub pull-request -b $owner/$repository:branch -h $me/$repository:update-$releasename

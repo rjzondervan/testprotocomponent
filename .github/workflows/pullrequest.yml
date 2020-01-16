@@ -16,6 +16,9 @@ jobs:
         steps:
             - name: Checking out repository
               uses: actions/checkout@v1
+            - name: Login to GitHub
+              run: |
+                  git config --global user.name "$me"
             - name: Create new branch
               run: 
                 | 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92089c82-d91e-45b0-a4eb-32fdfd03bfef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pullrequest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,7 @@
       <workItem from="1573726462409" duration="6345000" />
       <workItem from="1574770780191" duration="4500000" />
       <workItem from="1575443613282" duration="255000" />
-      <workItem from="1579170725509" duration="5949000" />
+      <workItem from="1579170725509" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed language errors in Installation.md">
       <created>1573726496674</created>
@@ -409,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579189391682</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="quotes?">
+      <created>1579189474724</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579189474724</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Always clean up">
+      <created>1579189546507</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1579189546507</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,8 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix on syntax" />
-    <MESSAGE value="More testing with GREP" />
     <MESSAGE value="Even more testing" />
     <MESSAGE value="export to set-env" />
     <MESSAGE value="Set APP_BUILD" />
@@ -454,6 +467,8 @@
     <MESSAGE value="Disable dockerimage" />
     <MESSAGE value="more exploring on $me and $owner" />
     <MESSAGE value="get the right owner variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="get the right owner variable" />
+    <MESSAGE value="quotes?" />
+    <MESSAGE value="Always clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Always clean up" />
   </component>
 </project>
